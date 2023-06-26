@@ -19,58 +19,60 @@
         "cells": [
           {
             "position": {
-              "x": 409,
-              "y": 160.78125
+              "x": 190,
+              "y": 340
             },
             "size": {
-              "width": 210,
-              "height": 98.4375
-            },
-            "shape": "trust-boundary-box",
-            "id": "b202ab44-02f6-46bc-b591-411cf43adb73",
-            "zIndex": -1,
-            "data": {
-              "type": "tm.BoundaryBox",
-              "name": "信任边界",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            }
-          },
-          {
-            "position": {
-              "x": 484,
-              "y": 180
-            },
-            "size": {
-              "width": 60,
+              "width": 120,
               "height": 60
             },
             "attrs": {
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
+              "topLine": {
+                "stroke": "red",
+                "strokeWidth": 3,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "stroke": "red",
+                "strokeWidth": 3,
                 "strokeDasharray": null
               }
             },
             "visible": true,
-            "shape": "process",
-            "id": "327caebb-bf5f-46ab-95d6-048efb7826ff",
-            "zIndex": 0,
+            "shape": "store",
+            "id": "35e1ae94-c03b-4417-ade9-4fd741cabc5c",
+            "zIndex": 1,
             "data": {
-              "type": "tm.Process",
-              "name": "Process",
+              "type": "tm.Store",
+              "name": "数据存储",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "privilegeLevel": "",
-              "hasOpenThreats": false,
-              "threats": []
+              "isALog": false,
+              "storesCredentials": true,
+              "isEncrypted": true,
+              "isSigned": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "c5e69bb7-2d9f-40e5-b4be-40de32a11e47",
+                  "title": "新STRIDE威胁",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "篡改",
+                  "description": "为这种威胁提供一个描述",
+                  "mitigation": "为这种威胁提供缓解或预防措施",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 1,
+                  "score": ""
+                }
+              ]
             }
           },
           {
             "position": {
-              "x": 170,
+              "x": 210,
               "y": 180
             },
             "size": {
@@ -86,8 +88,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "6505cfb2-410a-488d-ad67-ecebb7b0bdba",
-            "zIndex": 1,
+            "id": "1328962d-c569-4769-8939-24940e46061c",
+            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "Actor",
@@ -127,19 +129,18 @@
               "hasOpenThreats": false,
               "threats": []
             },
-            "id": "1bed1b3b-ad02-44c0-9769-5699504fd5a6",
+            "id": "adf42c5d-ac8f-4e71-a789-9ea76229684b",
             "source": {
-              "x": 283,
-              "y": 212
+              "x": 255,
+              "y": 240
             },
             "target": {
-              "x": 410,
-              "y": 220
+              "cell": "35e1ae94-c03b-4417-ade9-4fd741cabc5c"
             },
             "vertices": [
               {
-                "x": 330,
-                "y": 212
+                "x": 300,
+                "y": 290
               }
             ]
           }
@@ -148,6 +149,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "a",
-    "threatTop": 0
+    "threatTop": 1
   }
 }
