@@ -28,13 +28,11 @@
             },
             "attrs": {
               "topLine": {
-                "stroke": "red",
-                "strokeWidth": 3,
+                "strokeWidth": 1,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "stroke": "red",
-                "strokeWidth": 3,
+                "strokeWidth": 1,
                 "strokeDasharray": null
               }
             },
@@ -52,16 +50,16 @@
               "storesCredentials": true,
               "isEncrypted": true,
               "isSigned": false,
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "threats": [
                 {
                   "id": "c5e69bb7-2d9f-40e5-b4be-40de32a11e47",
                   "title": "新STRIDE威胁",
-                  "status": "Open",
+                  "status": "Mitigated",
                   "severity": "Medium",
                   "type": "篡改",
-                  "description": "为这种威胁提供一个描述",
-                  "mitigation": "为这种威胁提供缓解或预防措施",
+                  "description": "为这种威胁提供一个描述aa",
+                  "mitigation": "为这种威胁提供缓解或预防措施aa",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 1,
@@ -92,7 +90,7 @@
             "id": "1328962d-c569-4769-8939-24940e46061c",
             "data": {
               "type": "tm.Actor",
-              "name": "Actor",
+              "name": "外部实体",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
