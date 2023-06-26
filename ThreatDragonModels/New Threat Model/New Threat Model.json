@@ -88,8 +88,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "1328962d-c569-4769-8939-24940e46061c",
             "zIndex": 2,
+            "id": "1328962d-c569-4769-8939-24940e46061c",
             "data": {
               "type": "tm.Actor",
               "name": "Actor",
